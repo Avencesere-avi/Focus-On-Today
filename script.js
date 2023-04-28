@@ -7,7 +7,7 @@ const goalinput = document.querySelectorAll(".goal-input")
 
 const error = document.querySelector(".progress-error");
 
-
+const progresspercent = document.querySelector(".progress-value");
 
 
 
@@ -21,6 +21,7 @@ checkBoxList.forEach((eachcheckbox)=>{
            
             if(inputFields){
               eachcheckbox.parentElement.classList.toggle("completed")
+              progresspercent.parentElement.classList.add("done")
             }
 
             else{
