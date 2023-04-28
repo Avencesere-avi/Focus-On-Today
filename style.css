@@ -116,9 +116,21 @@ main{
 
 .progress-error{
     font-size: 14px;
-    color: #FF5151;
-    /* visibility: hidden; */
+    color: #FF5151; 
+    visibility: hidden;
 }
+
+.ok .progress-error{
+    font-size: 14px;
+    color: #FF5151; 
+    visibility: visible;
+}
+
+/* .progress-error-2{
+
+    visibility: visible;
+
+} */
 
 .container-task{
     height: 82px;
